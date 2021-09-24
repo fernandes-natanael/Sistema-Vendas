@@ -1,0 +1,10 @@
+# evitando cache de migração desnecessário
+
+order/__pycache__/*
+order/migrations/__pycache__/*
+product/__pycache__/*
+product/migrations/__pycache__/*
+project/__pycache__/*
+
+# protegento a secret key
+.env
